@@ -1,0 +1,3 @@
+En python se le llama módulo a un archivo de este idioma mismo, posee funciones, definiciones de clases, bases de datos, configuraciones, etc.
+"import matematicas" importa el modulo completo y para llamar alguna funcíon se seguiria una sintaxis como por ejemplo: "número = matematicas.sumar(1, 5).
+y con "from matematicas import sumar" para llamar una función puedes hacerlo sin el prefijo, simplemente utilizando "número = sumar(1, 5)"

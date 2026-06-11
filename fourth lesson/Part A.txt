@@ -1,0 +1,7 @@
+Parte A:
+    una excepción en Python es un error controlado.
+    El comando Try es lo que le prepara al programa para que si lanza algún error, en vez de matar el programa, responda con algo que definamos.
+    El except es donde se coloca el error especifico al que queremos responder y colocamos la instrucción a seguir.
+    Es sumamente importante el manejo de errores en backend ya que la capacidad de prevenir o saber actuar ante estos errores hace la diferencia
+    a la hora de diseñar tu software, cientos, miles y hasta millones de entradas de datos puedes ocurrir simultaneamente y si las excepciones
+    no están bien cuidadas puede arruinar completamente el flujo de datos al hacer un parón brusco.

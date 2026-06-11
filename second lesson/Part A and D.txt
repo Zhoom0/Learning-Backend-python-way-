@@ -1,0 +1,8 @@
+Parte A:
+    Una dataclass resuelve el problema de tener que escribir manualmente código repetitivo lo cual puede llevar a un error en algún momento.
+    Te genera automaticamente la sintaxis del comando __init__ y una representasión legible al imprimir, se usa para clases destinadas a almacenar datos y no a tener funciones integradas,
+    Las type hints son indispensables para utilizar dataclass ya que tienes que definir con type hints los distintos campos de la classe para que el decorador
+    @dataclass funcione.
+
+Parte D:
+    Sirve aprender dataclass porque en la librería Pydantic del framework FastAPI escribir un modulo comparte mucha similitud con hacer una dataclass aquí (clase + campos con type hints)

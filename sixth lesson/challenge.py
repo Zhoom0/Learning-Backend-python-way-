@@ -4,26 +4,16 @@ def crear_saludo(nombre: str, idioma: str = "es") -> str:
     elif idioma == "es":
         return f"Hola, {nombre}"
     
+    
 def multiplicar_todos(*numeros: float) -> float:
     total = 1
     for n in numeros:
         total = total * n
     return total
 
-print(multiplicar_todos())
 
-def construir_usuario(**datos) -> str | None:
+def construir_usuario(**datos: str) -> dict[str, str]:
     if "email" in datos:
         return datos
     else:
         raise ValueError("El Email es OBLIGATORIO") 
-        
-
-
-
-def construir_usuario(**datos) -> dict | None:
-    for email, valor in datos.items():
-        if email in datos:
-            return datos
-        else:
-            raise ValueError("El Email es OBLIGATORIO") 

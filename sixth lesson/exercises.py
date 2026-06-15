@@ -4,4 +4,6 @@ def potencia(base: float, exponente: int = 2) -> float:
 def contar_argumentos(*args):
     return len(args)
 
-print(contar_argumentos(1, 190823, "hola", True))
+def mostrar_config(**kwargs) -> None:
+    for clave, valor in kwargs.items():
+        print(f"{clave}: {valor}")

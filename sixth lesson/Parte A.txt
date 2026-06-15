@@ -1,0 +1,2 @@
+Parte A:
+    *args recibe datos y los mete en un tupla, en cambio kwargs, los mete en un diccionarios

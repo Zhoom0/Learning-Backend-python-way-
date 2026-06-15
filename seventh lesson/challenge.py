@@ -15,17 +15,17 @@ hola = Rectangulo(4, 3)
 #print(hola.perimetro())
 
 class Termo:
-    def __init__(self, capacidad: float, contenido: float):
+    def __init__(self, capacidad: float):
         self.capacidad = capacidad
         self.contenido = 0.0
 
-    def llenar(self, cantidad) -> float:
+    def llenar(self, cantidad: float) -> None:
         suma = cantidad + self.contenido
         if suma > self.capacidad:
             raise ValueError("La cantidad no puede superar la capacidad del termo.")
         self.contenido = self.contenido + cantidad
 
-    def vaciar(self) -> float:
+    def vaciar(self) -> None:
         self.contenido = 0.0
 
 termo = Termo(500, 200)

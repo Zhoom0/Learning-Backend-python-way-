@@ -1,0 +1,4 @@
+Parte A:
+    Son una forma de transformar listas/diccionarios en una versión con datos modificados según tu necesidad pudiendo colocar filtros facilmente.
+    Su principal uso y ventaja ante un bucle for normal es que este es mas corto y mas legible (en la mayoria de casos), en los casos
+    en los que no sea mas legible ya no tiene sentido utilizarlo, en ese caso es mejor usar un bucle for normal a favor de la legivilidad.

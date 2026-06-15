@@ -1,0 +1,5 @@
+Parte A:
+Una clase es el molde con el cual generas objetos. En una clase se definen los atributos que tendran los objetos al igual que los metodos.
+Por ejemplo, un molde podría ser el concepto "humano", que despues puede tener atributos como "macho", "hembra", "edad", etc.
+
+Self se usa para decirle a la clase como los objetos deben asignarse distintos atributos, y en las funciones se utiliza para indicar que la función usa como parametro a si mismo(el objeto que la llama)

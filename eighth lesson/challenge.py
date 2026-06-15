@@ -18,6 +18,7 @@ correo2: str = "chao321@gmail.com"
 
 database: list[dict[str, str]] = [
     {"nombre": "Cristobal", "ciudad": "Concepción", "email": correo},
-    {"nombre": "Matías", "ciudad": "Concepción", "email": correo2}
+    {"nombre": "Matías", "ciudad": "Concepción", "email": correo2},
+    {"nombre": "Diego", "ciudad": "Rancagua", "email": correo},
 ]
 

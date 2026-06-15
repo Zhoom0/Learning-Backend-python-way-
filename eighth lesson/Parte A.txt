@@ -1,0 +1,5 @@
+Parte A:
+    str | None significa que el sistema espera que se devuelva str o sinó, None.
+    La forma clasica sería importar Optional con "from typing import Optional" y se usa con "Optional[str]".
+    Hay que tener cuidado usando "Any" porque aunque el sistema funcione correctamente, si se usa en exceso puede llegar a eliminar
+    la legibilidad, aparte que necesitas validar datos y usando "Any" es una tarea imposible.
